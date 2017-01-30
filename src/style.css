@@ -1,0 +1,39 @@
+body {
+    font: 18px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+    font-size: 16px;
+}
+
+.margin {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bg-1 {
+    background-color: #bc4b14;
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #24255d;
+    color: #ffffff;
+}
+
+.bg-3 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
