@@ -1,5 +1,5 @@
-* {
-    margin: 0;
+html,body{
+    height: 100%
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     padding-bottom: 55px
 }
 
-.footer {
+footer {
     bottom: 0;
 }
 
