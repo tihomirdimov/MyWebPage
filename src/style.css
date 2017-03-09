@@ -1,169 +1,89 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 * {
     margin: 0px;
     padding: 0px;
 }
 
-html, body {
-    height: 100%
-}
-
-body {
-    font: 18px Montserrat, sans-serif;
-}
-
-p {
-    font-size: 16px;
-}
-
 .bg-1 {
-    background-color: #fff2c7;
+    background-color: #24255d;
+    color: #fff2c7;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .bg-2 {
-    background-color: #24255d;
-    color: #ffffff;
+    background-color: #fff2c7;
+    color: #24255d;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .bg-3 {
-    background-color: #2f2f2f;
-    color: #ffffff;
+    background: radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
+    color: #fff2c7;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 2px black;
 }
 
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-    height: 45px;
-    vertical-align: top;
+main {
+    margin-bottom: 50px;
 }
 
-.navbar-nav li a:hover {
-    color: ivory !important;
-}
-
-
-.modal-content {
-    background-color: #24255d;
-    color: #ffffff;
-}
-
-#aboutme {
-    margin-top:45px;
-}
-
-article.bio {
-    width: 300px;
-    text-align: left;
-    background-color: ivory;
-    border: 1px solid #24255d;
-    border-radius: 3px;
-    display: inline-block;
-    margin: 5px;
-    padding: 5px;
-    display: inline-flex;
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 a {
     text-decoration: none;
 }
 
-h1 {
-    padding: 2px;
-    font-size: 18px;
+li {
+    list-style: none;
 }
 
-h2 {
-    padding: 2px;
-    font-size: 16px;
+.column {
+    padding: 10px;
 }
 
-h3 {
-    padding: 2px;
-    font-size: 14px;
-    font-weight: bold;
+article.bio {
+    margin: 0px;
+    height: 100px;
+    background-color: ivory;
+    color: #24255d;
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
-
-.bio-details > ul > li {
-    list-style: none
+.bio-icon, .bio-details {
+    height: 100px;
+    display: inline-block;
+    vertical-align: bottom;
 }
 
-.bio-details > ul > li > a, .bio-details > p  {
-    font-size: 12px;
+.bio-icon {
+    padding: 10px 0 10px 10px;
 }
 
-p {
-    padding: 2px;
-    font-size: 12px;
+.bio-details {
+    padding: 10px 10px 10px 0;
+}
+
+.bio-icon > i.fa {
+    font-size: 26px;
+}
+
+.contacts > i.fa {
+    padding: 25px;
+    font-size: 100px;
+    color: #24255d;
 }
 
 .spacebefore::before {
     content: " ";
-}
-
-h3#personal::before {
-    font-family: FontAwesome, serif;
-    margin-right: 5px;
-    font-size: 20px;
-    content: "\f183";
-}
-
-h3#residence::before {
-    font-family: FontAwesome, serif;
-    margin-right: 5px;
-    font-size: 20px;
-    content: "\f015";
-}
-
-h3#education::before {
-    font-family: FontAwesome, serif;
-    margin-right: 5px;
-    font-size: 20px;
-    content: "\f19d";
-}
-
-h3#occupation::before {
-    font-family: FontAwesome, serif;
-    margin-right: 5px;
-    font-size: 20px;
-    content: "\f0b1";
-}
-
-h3#likes::before {
-    font-family: FontAwesome, serif;
-    margin-right: 5px;
-    font-size: 20px;
-    content: "\f087";
-}
-
-h3#dislikes::before {
-    font-family: FontAwesome, serif;
-    margin-right: 5px;
-    font-size: 20px;
-    content: "\f088";
-}
-
-h3#music::before {
-    font-family: FontAwesome, serif;
-    margin-right: 5px;
-    font-size: 20px;
-    content: "\f001";
-}
-
-h3#sports::before {
-    font-family: FontAwesome, serif;
-    margin-right: 5px;
-    font-size: 20px;
-    content: "\f1e3";
-}
-
-.fa {
-    display: inline-block;
-    margin-left: 45px;
-}
-
-footer {
-    bottom: 0;
-    padding: 10px 0 10px 0;
 }
