@@ -52,10 +52,11 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
     word-wrap: break-word;
+    font-size: 16px;
 }
 
 p {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .contacts > h3 {
@@ -84,7 +85,7 @@ li {
     padding: 15px;
 }
 
-article.bio {
+div.bio {
     margin: 0px;
     height: 100px;
     background-color: ivory;
@@ -93,15 +94,16 @@ article.bio {
     border-radius: 3px;
 }
 
-.bio-details > ul > li > a {
+.bio-details > ul > li > a, p > a {
     text-decoration: none;
 }
 
-.bio-details > ul > li > a:hover {
+.bio-details > ul > li > a:hover, p > a:hover {
+    text-decoration: none;
     color: #D3776F;
 }
 
-.bio-details > ul > li > a:visited {
+.bio-details > ul > li > a:visited, p > a:visited {
     text-decoration: none;
 }
 
@@ -157,4 +159,11 @@ article.bio {
 
 .author:before {
     content: '- ';
+}
+
+.resize {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: auto;
 }
