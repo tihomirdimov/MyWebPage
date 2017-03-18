@@ -41,7 +41,6 @@ body {
     color: #181818;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 1px 1px silver;
-    font-weight: bolder;
 }
 
 main {
@@ -52,7 +51,14 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 1px;
     word-wrap: break-word;
+}
+
+h1 {
     font-size: 16px;
+}
+
+h2 {
+    font-size: 15px;
 }
 
 p {
@@ -63,14 +69,8 @@ p {
     padding: 25px;
 }
 
-a {
-    text-decoration: none;
+p, .bio-details > ul > li > a {
     word-wrap: break-word;
-    cursor: pointer;
-}
-
-p, .bio-details > ul > li, .bio-details > ul > li > a {
-    word-wrap: normal;
 }
 
 li {
@@ -126,7 +126,7 @@ div.bio {
 }
 
 .contacts > a {
-    padding: 25px;
+    padding: 20px;
 }
 
 .contacts > a > i.fa {
@@ -139,7 +139,7 @@ div.bio {
     color: #D3776F;
 }
 
-.spacebefore::before {
+.spacebefore:before {
     content: " ";
 }
 
@@ -154,6 +154,7 @@ div.bio {
 
 .author {
     font-style: italic;
+    letter-spacing: 1px;
     font-size: 12px;
 }
 
