@@ -40,7 +40,7 @@ body {
     );
     color: #181818;
     font-family: 'Montserrat', sans-serif;
-    text-shadow: 1px 1px silver;
+    text-shadow: 1px 1px #c0c0c0;
 }
 
 main {
@@ -88,9 +88,9 @@ li {
 div.bio {
     margin: 0px;
     height: 100px;
-    background-color: ivory;
+    background-color: #fffff0;
     color: #24255d;
-    border: 1px solid black;
+    border: 1px solid #181818;
     border-radius: 3px;
 }
 
@@ -145,7 +145,7 @@ div.bio {
 
 .mark {
     border-radius: 3px;
-    border: 1px solid black;
+    border: 1px solid #181818;
 }
 
 .quote:before, .quote:after {
@@ -167,6 +167,10 @@ div.bio {
     margin-right: 25%;
     width: 50%;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid #181818;
     border-radius: 3px;
+}
+
+.img-circle {
+    border: 2px solid #D3776F;
 }
