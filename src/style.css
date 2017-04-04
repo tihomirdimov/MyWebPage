@@ -91,6 +91,7 @@ div.bio {
     background-color: #fffff0;
     color: #24255d;
     border: 1px solid #181818;
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.8);
     border-radius: 3px;
 }
 
@@ -146,6 +147,7 @@ div.bio {
 .mark {
     border-radius: 3px;
     border: 1px solid #181818;
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.8);
 }
 
 .quote:before, .quote:after {
@@ -168,9 +170,11 @@ div.bio {
     width: 50%;
     height: auto;
     border: 1px solid #181818;
+    box-shadow: 2px 2px 8px 1px #0B242D;
     border-radius: 3px;
 }
 
 .img-circle {
     border: 2px solid #D3776F;
+    box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.8);
 }
