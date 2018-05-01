@@ -185,5 +185,8 @@ div.bio {
 
 .job-period{
     font-style: italic;
+}
+
+.employer{
     font-weight: 600;
 }
