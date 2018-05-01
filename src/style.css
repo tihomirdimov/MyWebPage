@@ -190,3 +190,17 @@ div.bio {
 .employer{
     font-weight: 600;
 }
+
+.fa-twitter::after {
+    position: relative;
+    float: right;
+    content: '16+';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #24255d;
+}
+
+.fa-twitter:hover:after{
+    color: orangered;
+}
