@@ -183,8 +183,20 @@ div.bio {
     box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.8);
 }
 
-.job-period{
+.job-description{
     font-style: italic;
+}
+
+.job-period{
+    font-weight: lighter;
+}
+
+.job-period::before{
+    content: '/ ';
+}
+
+.job-period::after{
+    content: ' /';
 }
 
 .employer{
